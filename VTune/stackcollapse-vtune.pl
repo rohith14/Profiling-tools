@@ -16,7 +16,7 @@
 #
 # 2. Export raw VTune data to csv file:
 #
-#    amplxe-cl -R top-down -report-out result_vtune_tachyon.csv -filter "Function Stack" -format csv -csv-delimiter comma -r result_vtune_tachyon
+#    amplxe-cl -R top-down -call-stack-mode all -report-out result_vtune_tachyon.csv -filter "Function Stack" -format csv -csv-delimiter comma -r result_vtune_tachyon
 #
 # 3. Generate a flamegraph:
 #
